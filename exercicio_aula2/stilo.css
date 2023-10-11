@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+}
+.cabecalho {
+    text-align: center;
+    background-color: rgb(63, 23, 100);
+    border-radius: 5px;
+    
+}
+
+div {
+    padding-bottom: 40px
+
+}
+
+
+h3 {
+    background-color: rgb(63, 23, 100);
+    border-radius: 5px;
+    text-align: left;
+    
+    
+    
+}
+table {
+    background-color: rgb(63, 23, 100);
+    border-collapse: collapse;
+    
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+ul {
+    list-style:square;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pai{
+    color: blue;
+}
+
+.mae {
+    color: rgba(148, 10, 10, 0.623);
+}
+
+.filho {
+    color: aquamarine;
+}
+
+.filha {
+    color: rgb(233, 230, 34);
+}
