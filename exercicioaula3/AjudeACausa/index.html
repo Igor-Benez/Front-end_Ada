@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajude a Causa</title>
+</head>
+<body>
+    <form action="formresponse.html" method="get">
+        <label for="inome">Nome do participante:</label>
+        <input type="text" name="nome" id="inome" required>
+        <br>
+        <label for="iidade">Idade:</label>
+        <input type="number" name="idade" id="iidade">
+        <br>
+        <label for="iemail">Email:</label>
+        <input type="email" name="email" id="iemail" required>
+        <br>
+        <label for="itamanhoCamiseta">Tamanho da Camiseta:</label>
+            <select id="itamanhoCamiseta" name="tamanhoCamiseta">
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+                <option value="XG">XG</option>
+            </select>
+        <br>
+        <label for="icatinscricao">Categoria de inscrição:</label>
+            <select name="catinscricao" id="icatinscricao">
+                <option value="3RUN">3RUN</option>
+                <option value="5RUN">5RUN</option>
+                <option value="4WALK">4WALK</option>
+            </select>
+        <br>
+        <label for="ivalordoacao">Valor da doação:</label>
+        <input type="number" name="valordoacao" id="ivalordoacao">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
