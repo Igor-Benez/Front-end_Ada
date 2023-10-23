@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="rodape.css">
+    <title>Coffee Benez</title>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="inicio">   
+            <ul class="menu">
+                <span class="material-symbols-outlined">coffee</span>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="cafeteria_nome">Coffee Benez</h1>
+        <p class="cafeteria_paragrafo">Ofertamos uma experiência unica, com a mais alta qualidade barista que o mundo pode oferecer!</p>
+    </header>
+    
+    <main>
+        <h2 class="cardapio">Cardápio</h2>
+        <section class="cards" id="produtos">
+            <figure class="centraliza">
+                <img src="coffeeandjoy_cafe_feito_na_cafeteira_italiana.jpg" alt="Café Italiano">
+                <figcaption class="caption">Café Italiano</figcaption>
+             </figure>
+        </section>
+        
+        <section class="cards">
+            <figure class="centraliza">
+                <img src="cafegrego.jpg" alt="Café Grego">
+                <figcaption class="caption">Café Grego</figcaption>
+            </figure>    
+        </section>
+        
+        <section class="cards">
+            <figure class="centraliza">
+                <img src="cafebrasileiro.jpg" alt="café Brasileiro">
+            </figure>
+            <figcaption class="caption">Café Brasileiro</figcaption>
+        </section>
+        <aside class="tabela-aside" id="tabela_precos">
+        <table>
+            <tr>
+                <td colspan="2">Tabela de preços</td>
+                
+                
+                
+            </tr>
+            <tr class="hover">
+                <td>Café brasileiro</td>
+                <td>10 Reais</td>
+                
+                
+            </tr>
+            <tr class="hover">
+                <td>Café Grego</td>
+                <td>13 reais</td>
+                
+            </tr>
+
+            <tr class="hover">
+                <td>Café Italiano</td>
+                <td>13 reais</td>
+                
+            </tr>
+        </table>
+        </aside>
+    </main>
+    <section class="formulario" id="cadastro">
+        <h3 class="formulario_titulo">Cadastre-se</h3>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" id="nome">
+            <br>
+        <label for="email">Digite seu E-mail:</label>
+        <input type="email" name="email" id="email">
+            <br>
+        <label for="senha">Digite sua senha:</label>
+        <input type="password" name="senha" id="senha">
+            <br>
+        <input class="botao" type="button" value="Enviar">
+    </section>
+
+    <footer class="rodape">
+        <ul class="lista_rodape">
+            <li><a href="#inicio">Inicio</a></li>
+            <li> <a href="#produtos">Nossos Produtos</a></li>
+            <li> <a href="#tabela_precos">Preços</a></li>
+            <li> <a href="#cadastro">Cadastre-se</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

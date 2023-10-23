@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth
+    
+}
+
+header {
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    height: 300px; 
+    size: 33%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding:0;
+    padding:20px;
+    color: white;
+    transition: background .5s;
+    
+}
+
+.menu {
+    text-align: center;
+    
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(252, 201, 139);
+    border-radius: 5px;  
+}
+
+.cafeteria_nome {
+    text-align: center;
+    color: rgb(252, 201, 139);   
+    padding-top: 15px;
+}
+
+.cafeteria_paragrafo {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(252, 201, 139);
+    padding-top: 10px;
+    
+}
+
+main{
+    background-color: rgba(231, 229, 229, 0.863);
+    text-align: center;
+}
+
+.cardapio {
+    
+    text-align: center;
+    color:rgb(252, 201, 139);
+    font-size: 35px;
+    padding-top: 20px;
+    
+}
+
+.cards {
+    display: inline-block;
+    padding: 40px;
+    
+}
+
+
+img {
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+
+}
+
+.caption {
+    color:rgb(252, 201, 139);
+    text-shadow: 2px 2px 0px #000000;
+    font-size: 18px;
+
+}
+
+table, th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px 2px;
+}
+
+table {
+    width: 250px;
+    background-color: rgb(252, 201, 139);
+    color: azure;
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 260px;
+    
+    
+}
+
+.tabela-aside{
+    display: inline-block;
+    border-left: #000000;   
+}
+
+.hover:hover{
+    background-color:rgba(202, 202, 202, 0.863) ;
+}
